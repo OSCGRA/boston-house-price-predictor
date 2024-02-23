@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="320" height="240">
   </a>
 
   <h3 align="center">King County Real State: Price Predictor</h3>
@@ -10,7 +10,7 @@
   <p align="center">
     Welcome to the King County House Sale Prices Analysis project!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the presentation »</strong></a>
+    <a href="https://github.com/OSCGRA/seattle-house-price-predictor/blob/main/House-price-predictor.pptx"><strong>Explore the presentation »</strong></a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -31,8 +31,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -43,8 +41,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Welcome to the King County House Sale Prices Analysis project! This repository is designed to guide you through a comprehensive exploration of house sale prices data for King County, which includes Seattle. The dataset spans one year, from May 2014 to May 2015.
 
@@ -96,13 +92,30 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![Heatmap](https://github.com/OSCGRA/seattle-house-price-predictor/assets/77927558/cf69b2c5-e7ec-49f0-98e1-e7dad7879e6b)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<div align="center">
+  <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/OSCGRA/seattle-house-price-predictor/assets/77927558/7dff550f-14ab-4485-891e-de207b027785)">
+    <img src="images/logo.png" alt="Logo" width="320" height="240">
+  </a>
+</div>
 
+**Option 1:**     
+        Multicolinearidad = sqt_above, grade, sqt_living
+        Unnecesary = condition, yr_built, long
+    
+
+**Option 2:**
+        Multicolinearidad = sqft_living15
+        Unnecesary = yr_built
+  
+
+**Option 3 (Change and add):**
+        Return sqt_above, pull out sqt_living and sqt_living15
+        Unnecesary = zipcode
+        
+        
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
