@@ -68,15 +68,6 @@ You may find the following Python libraries useful for data analysis, visualizat
 - **Seaborn:** [v0.11.2](https://seaborn.pydata.org/)  
 - **Scikit-learn (sklearn):** [v0.24.2](https://scikit-learn.org/)  
 
-Make sure to keep these libraries up-to-date for the best performance and functionality.
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* Python installed on your system (version X.X.X recommended).
-* Required Python libraries installed: pandas, numpy, matplotlib, seaborn, etc.
-* Access to the King County house sale prices dataset (available in the data/ directory).
-* Clone this repository to your local machine:
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
